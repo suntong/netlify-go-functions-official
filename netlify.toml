@@ -4,5 +4,6 @@
   functions = "functions"
 [build.environment]
   GOBIN = "/opt/build/repo/functions"
+  GO111MODULE = "off"
 [template.environment]
   GO_IMPORT_PATH = "GO_IMPORT_PATH. Set your repository location: github.com/[Account]/[Repository name]"
